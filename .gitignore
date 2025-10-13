@@ -1,7 +1,7 @@
 venv/
 __pycache__/
 Kilkee/
-kilkeeMosaics/
+KilkeeMosaics/
 Kilkee.code-workspace
 mosaic_transforms.npz
 
