@@ -3,5 +3,5 @@ __pycache__/
 Kilkee/
 KilkeeMosaics/
 Kilkee.code-workspace
-mosaic_transforms.npz
+*.npz
 
