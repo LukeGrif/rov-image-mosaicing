@@ -46,7 +46,9 @@ The code is designed to handle **50+ high-resolution images** captured at ~1 fra
 
    ```powershell
    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-   & "c:/Users/Luke Griffin/Documents/ImageStitching/.venv/Scripts/python.exe" -m pip install ipykernel -U --force-reinstall
+   .\.venv\Scripts\activate
+   pip install "numpy<2" opencv-python ipykernel
+   python -m ipykernel install --user --name imagestitch-312 --display-name "ImageStitching (Py3.12)"
 
    ```
 
