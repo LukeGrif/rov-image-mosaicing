@@ -4,6 +4,7 @@ This repository contains Python code for stitching **underwater images** capture
 The script uses **SIFT-based feature matching**, **robust geometric transforms**, and **feathered blending** to create high-quality mosaics from large image sets.
 
 ---
+![alt text](KillaloeMosaics/stitched_mosaic_feathered.jpg)
 
 ## 🌊 Overview
 
@@ -40,6 +41,14 @@ The code is designed to handle **50+ high-resolution images** captured at ~1 fra
    git clone https://github.com/<your-username>/rov-image-mosaicing.git
    cd rov-image-mosaicing
    python opencv_code.ipynb
+
+## VSCode Notebook Issue
+
+   ```powershell
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   & "c:/Users/Luke Griffin/Documents/ImageStitching/.venv/Scripts/python.exe" -m pip install ipykernel -U --force-reinstall
+
+   ```
 
 ## 👤 Author
 
